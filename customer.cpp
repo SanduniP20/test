@@ -1,4 +1,4 @@
-#include "test.h"
+#include "customer.h"
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -21,4 +21,8 @@ void Customer::displayCustomerDetails()
   cout<<"Customer Email:"<<customerEmail<<endl;
   cout<<"Customer Contact Number:"<<contactnumber<<endl;
   cout<<"Customer Country:"<<country<<endl;
+}
+  Customer::~Customer()
+{
+  cout<<"Customer class variebles customer name "<<customerFName<<" ID "<<customerID<<" Email "<<customerEmail<<" contact number "<<contactnumber<<" country "<<country<<" deleted."<<endl;
 }

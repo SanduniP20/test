@@ -15,4 +15,5 @@ public:
 Customer(const char CFName[],const char CLName[],const char Email[],const char Contact[],const char Country[]);
 void setCoustemerID(const char CID[]);
 void displayCustomerDetails();
+~Customer();
 };

@@ -1,4 +1,4 @@
-#include "test.h"
+#include "customer.h"
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -8,6 +8,7 @@ int main()
   
   cus1-> setCoustemerID("C001");
   cus1-> displayCustomerDetails();
-
+  
+  delete cus1;
   return 0;
 }
